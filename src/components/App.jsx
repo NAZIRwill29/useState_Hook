@@ -3,11 +3,11 @@ import React, { useState } from "react";
 function App() {
   // Hook of useState to hook the value
   // []=[] - destructuring
-  const [count] = useState(1);
-  console.log(count);
+  const [count, setCount] = useState(1);
+  //console.log(count);
 
   function increase() {
-    //count++;
+    setCount(12);
   }
 
   return (
